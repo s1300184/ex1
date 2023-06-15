@@ -18,8 +18,8 @@ public class dice{
 	    System.out.println(randomNumber);
 	}
 	System.out.println("Total value: "+ total);
-	if(total>7) System.out.println("won!");
-	else System.out.println("lost!");
+	if(total>7) System.out.println(userName + " won!");
+	else System.out.println(userName + " lost!");
     }
 }
 
