@@ -3,6 +3,10 @@ import java.util.Random;
 
 public class dice{
     public static void main(String areas[]){
+	Scanner scanner = new Scanner(System.in);
+	System.out.println("What is your name?");
+	String userName = scanner.nextLine();
+	System.out.println("Hello, " + userName + "!");
 	System.out.println("Rolling dice...");
         Random ranNum = new Random();
 	int randomNumber = 0;
